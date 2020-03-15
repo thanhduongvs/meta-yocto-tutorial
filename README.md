@@ -36,7 +36,7 @@
     ```
 - 💻 *yocto/poky/build$* `bitbake bello-image --runall=fetch`
   - 📌 Bước này yocto sẽ tải về các package phục vụ cho việc buid
-  - ℹ️ Đối với yocto nhở hơn 2.4 câu lệnh trên được thay thế bằng `bitbake -c fetchall bello-image`
+  - ℹ️ Đối với yocto nhỏ hơn 2.4 câu lệnh trên được thay thế bằng `bitbake -c fetchall bello-image`
 - 💻 *yocto/poky/build$* `bitbake -k bello-image`
   - 📌 Bước này yocto sẽ build image
 
