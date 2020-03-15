@@ -6,3 +6,5 @@ is suitable for development work."
 IMAGE_FEATURES += "dev-pkgs"
 
 IMAGE_INSTALL += " bello"
+IMAGE_INSTALL += " sharelib"
+IMAGE_INSTALL += " bbexample"
